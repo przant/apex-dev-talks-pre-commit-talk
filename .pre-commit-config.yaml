@@ -25,6 +25,11 @@ repos:
     hooks:
     -   id: python-use-type-annotations
 
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v4.0.0
     hooks:
@@ -35,7 +40,7 @@ repos:
           - fix
           - chore
 
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
     hooks:
-      - id: codespell
+      - id: gitlint

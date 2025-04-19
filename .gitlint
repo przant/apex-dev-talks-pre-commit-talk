@@ -1,0 +1,9 @@
+[general]
+# Ignore rules, reference them by id or name (comma-separated)
+ignore=title-trailing-punctuation, B6, T3
+
+[title-max-length]
+line-length=105
+
+[title-min-length]
+min-length=25
