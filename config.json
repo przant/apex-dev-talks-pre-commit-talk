@@ -1,0 +1,18 @@
+{
+    "prefix": "PRE_",
+    "suffix": "_POST",
+    "debug": true,
+    "options": {
+        "option1": "value1",
+        "option2": "value2",
+        "option3": "value3"
+    },
+    "enabled_features": [
+        "feature1",
+        "feature2"
+    ]
+    "logging": {
+        "level": "INFO",
+        "file": "app.log"
+    }
+}
