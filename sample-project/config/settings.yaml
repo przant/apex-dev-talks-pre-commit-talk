@@ -1,0 +1,24 @@
+# Settings for the sample project
+app:
+  name: Sample Project
+  version: 0.1.0
+  
+environment: development
+
+database:
+  host: localhost
+  port: 5432
+  username: user
+  password: pass
+  # Indentation error below - will trigger check-yaml
+    name: sample_db
+  
+logging:
+  level: INFO
+  file: app.log
+
+# Missing a colon after 'options' - will trigger check-yaml
+options
+  - option1
+  - option2
+  - option3
