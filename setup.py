@@ -11,8 +11,8 @@ setup(
     install_requires=[
         "pyyaml",
     ],
-    author="Sample Author",
-    author_email="author@example.com",
+    author="Antonio Pérez",
+    author_email="apema2079@gmail.com",
     description="A sample project for demonstarting pre-commit hooks",
     keywords="sample, pre-commit",
     python_requires=">=3.6",
