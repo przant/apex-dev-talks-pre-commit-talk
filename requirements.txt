@@ -1,4 +1,4 @@
 pyyaml==6.0
 pre-commit==3.3.2
 # Trailing whitespace - will trigger trailing-whitespace
-pytest==7.3.1
+pytest==7.3.1    
